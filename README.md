@@ -18,7 +18,7 @@ WORKDIR /plugin
 RUN make
 ```
 
-Where ``${TAG}`` is one of the supported tags listed here: https://hub.docker.com/repository/docker/rhrhunter/vcv-build-env/tags?page=1
+Where ``${TAG}`` is one of the supported tags listed here: https://hub.docker.com/r/rhrhunter/vcv-build-env/tags
 
 For example, to use an Ubuntu 18.04 environment that has Rack SDK v1.1.6:
 
