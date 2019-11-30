@@ -2,11 +2,11 @@
 This repository contains various base docker images for VCV Rack Build Environments that you can use to qualify your VCV Rack plugins.
 
 ## Supported Base Images
-* Ubuntu 18.04 (Rack SDK 1.1.6)
-* Ubuntu 19.10 (Rack SDK 1.1.6)
+* Ubuntu 18.04 (Rack SDK 1.1.6) ``ubuntu18.04-rack1.1.6``
+* Ubuntu 19.10 (Rack SDK 1.1.6) ``ubuntu19.10-rack1.1.6``
 
 ## Available Docker Tags
-https://hub.docker.com/repository/docker/rhrhunter/vcv-build-env/tags?page=1
+https://hub.docker.com/r/rhrhunter/vcv-build-env/tags
 
 ## How to use
 In you VCV Rack plugin's git repository, create a ``Dockerfile`` that contains the following:
@@ -31,7 +31,7 @@ RUN make
 
 ## Building your Plugin
 
-Once you've created a Dockerfile, build it by running:
+Once you've created a ``Dockerfile``, build it by running:
 
 ``docker build -t my-plugin-image .``
 
