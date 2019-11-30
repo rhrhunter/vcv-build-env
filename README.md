@@ -19,7 +19,18 @@ RUN make
 
 Where ``${TAG}`` is one of the supported tags listed here: https://hub.docker.com/repository/docker/rhrhunter/vcv-build-env/tags?page=1
 
-Build your Dockerfile by running:
+For example, to use an Ubuntu 18.04 environment that has Rack SDK v1.1.6:
+
+```dockerfile
+FROM rhrhunter/vcv-build-env:ubuntu18.04-rack1.1.6
+COPY . /plugin
+WORKDIR /plugin
+RUN make
+```
+
+## Building your Plugin
+
+Once you've created a Dockerfile, build it by running:
 
 ``docker build -t my-plugin-image .``
 
