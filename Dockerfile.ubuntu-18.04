@@ -9,4 +9,5 @@ RUN apt update && \
                        zlib1g-dev libasound2-dev libgtk2.0-dev libjack-jackd2-dev jq \
                        unzip wget
 
-RUN wget https://vcvrack.com/downloads/Rack-SDK-1.1.6.zip && unzip Rack-SDK-1.1.6.zip
+ARG RACK_SDK_VER=1.1.6
+RUN wget https://vcvrack.com/downloads/Rack-SDK-${RACK_SDK_VER}.zip && unzip Rack-SDK-${RACK_SDK_VER}.zip
