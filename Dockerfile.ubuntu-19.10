@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:19.10
 LABEL maintainer="rhrhunter"
 ENV RACK_DIR=/tmp/Rack-SDK
 WORKDIR /tmp
