@@ -33,6 +33,6 @@ RUN make
 
 Once you've created a ``Dockerfile``, build it by running:
 
-``docker build --no-cache -t my-plugin-image .``
+``docker build -t my-plugin-image .``
 
 If it builds successfully, your plugin compiles properly on that platform.
