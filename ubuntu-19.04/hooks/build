@@ -1,3 +1,0 @@
-#!/bin/bash
-
-docker build --build-arg RACK_SDK_VER=$SOURCE_BRANCH -f $DOCKERFILE_PATH -t $IMAGE_NAME .

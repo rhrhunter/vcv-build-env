@@ -3,10 +3,7 @@ This repository contains various base docker images for VCV Rack Build Environme
 
 ## Supported Base Images
 * Ubuntu 18.04 (Rack SDK 1.1.6) ``ubuntu18.04-rack1.1.6``
-* Ubuntu 18.10 (Rack SDK 1.1.6) ``ubuntu18.10-rack1.1.6``
-* Ubuntu 19.04 (Rack SDK 1.1.6) ``ubuntu19.04-rack1.1.6``
-* Ubuntu 19.10 (Rack SDK 1.1.6) ``ubuntu19.10-rack1.1.6``
-
+* Ubuntu 18.04 (Rack SDK 2) ``ubuntu18.04-rack2``
 
 ## Available Docker Tags
 https://hub.docker.com/r/rhrhunter/vcv-build-env/tags
